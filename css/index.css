@@ -1,0 +1,375 @@
+*
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+#logo
+{
+    border-radius: 50px;
+}
+/* //////////////////////////////////////////////////////////////////  ANIMATIONS INDEX /////////////////////////////// */
+#pic1, #pic2, #pic3, #pic4, #pic5, #pic6, #pic7, #pic8, #pic9, #unirow, #logoimg, #upcoming, #logoimg2, #flipbook
+{
+    opacity: 0;
+}
+#pic1.animated, #pic2.animated, #pic3.animated, #pic4.animated, #pic5.animated, #pic6.animated, #pic7.animated, #pic8.animated, #pic9.animated, #unirow.animated, #logoimg.animated, #upcoming.animated, #logoimg2.animated, #flipbook.animated
+{
+    opacity: 1;
+    animation-duration: 1s;
+    animation-delay: 0.15s;
+}
+/* /////////////////////////////////////////////////////////////////  ANIMATION ACTIVIIES /////////////////////////// */
+#poster1, #poster2, #poster3, #poster4, #poster5, #poster6
+{
+    opacity: 0;
+}
+#poster1.animated, #poster2.animated, #poster3.animated, #poster4.animated, #poster5.animated, #poster6.animated
+{
+    opacity: 1;
+    animation-duration: 1s;
+    animation-delay: 0.15s;
+}
+/* /////////////////////////////////////////////////////////////////  ANIMATION POSTERS /////////////////////////// */
+.pos1, .pos2, .pos3, .pos4, .pos5, .pos6, .pos7, .pos8, .pos9, .pos10, .pos11, .pos12, .pos13, .pos14
+{
+    opacity: 0;
+}
+.pos1.animated, .pos2.animated, .pos3.animated, .pos4.animated, .pos5.animated, .pos6.animated, .pos7.animated, .pos8.animated, .pos9.animated, .pos10.animated, .pos11.animated, .pos12.animated, .pos13.animated, .pos14.animated
+{
+    opacity: 1;
+    animation-duration: 1s;
+    animation-delay: 0.15s;
+}
+/* //////////////////////////////////////////////////////////////// ANIMATION GALLERY //////////////////////////// */
+.galimg1, .galimg2, .galimg3, .galimg4, .galimg5, .galimg6, .galimg7, .galimg8, .galimg9, .galimg10, .galimg11, .galimg12
+{
+    opacity: 0;
+}
+.galimg1.animated, .galimg2.animated, .galimg3.animated, .galimg4.animated, .galimg5.animated, .galimg6.animated, .galimg7.animated, .galimg8.animated, .galimg9.animated, .galimg10.animated, .galimg11.animated, .galimg12.animated
+{
+    opacity: 1;
+}
+/* //////////////////////////////////////////////////////////////////// MARGIN SIZING  /////////////////////////// */
+.gallerycard
+{
+    margin: 1.5vw;
+}
+.mainrow
+{
+    padding-top: 2vw;
+}
+.images
+{
+    position: relative;
+    color: rgb(255, 255, 255);
+    /* width: 400px; */
+    margin: 1.5vw;
+    margin-left: 0vw;
+}
+.bottom-right 
+{
+    position: absolute;
+    bottom: 8px;
+    right: 5vw;
+    color: white;
+    text-decoration: none;
+    
+}
+#indexspan
+{
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+#indexspan:hover
+{
+    font-size: 4vw;
+}
+/* ////////////////////////////////////////////////////////////////////// NAVBAR HEADINGS ///////////////////////////*/
+#unispan
+{
+    font-size: 2vw;
+    text-align: center;
+    /* margin-top: 5px; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#unispan1
+{
+    font-size: 1vw;
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.headingdiv
+{
+    margin-bottom: 5vw; 
+    text-align: center; 
+    padding: 1vw;
+}
+#headings
+{
+    font-size: 2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+/* /////////////////////////////////////////////////////////////////////// INDEX QUOTE  ///////////////////// */
+.indexquote
+{
+    margin-top: 1.5vw;
+}
+/* /////////////////////////////////////////////////////////////////////// LOGO INDEX PAGE BIG DISPLAY */
+.displaylogodiv
+{
+    margin-top: 2vw;
+}
+.displaylogo
+{
+    justify-content: space-around;
+}
+.displaylogoimg
+{
+    width: 25vw;
+    border-radius: 80vw;
+    border: 1px solid black;
+}
+.displaylogoimg2
+{
+    width: 25vw;
+}
+/* ////////////////////////////////////////////////////////////////////// FOOTER ////////////////////////// */
+.footer
+{
+    background: url(../pics/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8vw;
+    margin-top: 4vw;
+    color: white;
+    text-align: center;
+}
+.footer3
+{
+    text-align: center;
+}
+#footerimg
+{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 70px;
+}
+.footer a:hover
+{
+    color: rgb(0, 0, 0);
+}
+/* /////////////////////////////////////////////////////////////////////    ACTIVITIES    ////////////////////////////////////////////////// */
+.activitycard
+{
+    margin: 1.5vw;
+}
+.activity1
+{
+    background: url(../pics/poster3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.activity2
+{
+    background: url(../pics/poster6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.activity3
+{
+    background: url(../pics/poster4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.activity4
+{
+    background: url(../pics/poster2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.activity5
+{
+    background: url(../pics/poster1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.activity6
+{
+    background: url(../pics/poster5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* //////////////////////////////////////////////////////////////////////  RESPONSIVE  /////////////////////////// */
+@media(max-width: 760px) 
+{
+
+}
+@media(max-width: 980px) 
+{
+    #toc
+    {
+        display: none;
+    }
+    #unispan1
+    {
+        font-size: 1.3vw;
+        text-align: center;
+        font-weight: 500;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    #unispan
+    {
+        font-size: 3vw;
+        text-align: center;
+        /* margin-top: 5px; */
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    #footerimg
+    {
+        width: 5vw;
+        height: 5vw;
+    }
+    .displaylogodiv
+    {
+        margin-top: 5vw;
+    }
+    .displaylogoimg
+    {
+        width: 45vw;
+        border-radius: 80vw;
+        border: 1px solid black;
+    }
+    .upcomingspan
+    {
+        font-size: 4vw;
+        font-weight: bold;
+        font-family: fantasy;
+    }
+    .rulesspan
+    {
+        font-size: 4vw;
+        font-weight: bold;
+        font-family: fantasy;
+    }
+    .rulesdiv
+    {
+        margin-top: 3vw;
+    }
+    .membercard
+    {
+        width: 30%;
+    }
+    .memberh5
+    {
+        font-size: 2vw;
+        font-weight: bold;
+    }
+    .memberp
+    {
+        font-size: 2vw;
+    }
+    .headingdiv
+    {
+        margin-bottom: 5vw; 
+        text-align: center; 
+        padding: 3vw;
+    }
+    #headings
+    {
+        font-size: 3vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    }
+    .calenderimg
+    {
+        width: 130vw;
+        height: 130vw;
+    }
+    .flipbook
+    {
+        /* width: 480vw;
+        height: 72vw; */
+        width: 40px;
+        height: 20px;
+    }
+    
+}
+/* ///////////////////////////////////////////////////////////////////////  CALENDER //////////////////////////////*/
+.upcomingspan
+{
+    font-size: 2vw;
+    font-family: fantasy;
+}
+.upcomingdiv
+{
+    margin-top: 2vw;
+}
+.calenderimg
+{
+    /* border-radius: 80%; */
+    width: 30vw;
+    height: 30vw;
+}
+/* /////////////////////////////////////////////////////////////////////// RULE BOOK ///////////////////////////// */
+.rulesspan
+{
+    font-size: 2vw;
+    font-family: fantasy;
+}
+.rulesdiv
+{
+    margin-top: 2vw;
+}
+/* /////////////////////////////////////////////////////////////////////// MEMBERS  //////////////////////////////*/
+.membercard
+{
+    width: 30%;
+    padding-top: 1vw;
+}
+/* ///////////////////////////////////////////////////////////////////// LIGHT GALLERY */
+.lg-backdrop
+{
+	background-color: rgba(0, 0, 0, 0);
+}
+.lg-outer {
+	width: 70%;
+	height: 70%;
+	position: fixed;
+	top: 10%;
+	left: 16%;
+}
+.lg-toolbar {
+	z-index: 1082;
+	left: 0;
+	position: absolute;
+	top: 90%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0);
+}
+.lg-actions .lg-next, .lg-actions .lg-prev, .lg-toolbar .lg-close, .lg-toolbar .lg-download
+{
+	color: rgb(0, 0, 0);
+}
+.lg-actions .lg-next:hover, .lg-actions .lg-prev:hover , .lg-toolbar .lg-close:hover, .lg-toolbar .lg-download:hover, .lg-toolbar .lg-counter:hover
+{
+	color: rgb(10, 10, 10);
+	transform: scale(1.5);
+}
+#lg-counter {
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	padding-left: 10px;
+	padding-top: 13px;
+	vertical-align: baseline;
+}
+/* ///////////////////////////////////////////////////////////////////// */
+.flipbook
+{
+    /* width: 46vw;
+    height: 33vw; */
+    width: 54vw;
+    height: 37.5vw;
+}
