@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivation Feed SLC</title>
+
+    <link rel="icon" href="pics/LogoNoBG.png">
+
+    <!-- INDEX.CSS SHEET -->
+
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- Bootstrap links 2 -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <!-- JQUERY LINK -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- JAVASCRIPT -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- WAYPOINT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- ANIMATE.CSS -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+
+    <!-- LIGHT GALLERY -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <script>
+
+        $(document).ready(function(){
+
+            $("#unirow").waypoint(function(direction){
+                $("#unirow").addClass("animated pulse");
+            },{
+                offset: 'top-in-view'
+            });
+
+        });
+
+    </script>
+
+    <style>
+
+        .lg-backdrop
+        {
+            background-color: rgba(0, 0, 0, 0.164);
+        }
+        .lg-outer 
+        {
+            width: 70%;
+            height: 70%;
+            top: 10%;
+            left: 16%;
+            border: 2px solid rgba(0, 0, 0, 0.7);
+            background-color: rgba(0, 0, 0, 0.514);
+        }
+        .lg-toolbar 
+        {
+            background-color: rgba(0, 0, 0, 0);
+        }
+        .lg-actions .lg-next, .lg-actions .lg-prev, .lg-toolbar .lg-close, .lg-toolbar .lg-download
+        {
+            color: rgb(255, 255, 255);
+        }
+        .lg-actions .lg-next:hover, .lg-actions .lg-prev:hover , .lg-toolbar .lg-close:hover, .lg-toolbar .lg-download:hover, .lg-toolbar .lg-counter:hover
+        {
+            color: rgb(255, 255, 255);
+            transform: scale(1.5);
+        }
+        #lg-counter 
+        {
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+
+            <!-- LOGO -->
+            <a class="navbar-brand row">
+                <div class="col">
+                    <span>
+                        <img src="pics/LogoNoBG.png" alt="Bootstrap" width="50" height="50" style="margin: 1vw;">
+                    </span>
+                </div>
+                <div class="col" id="unirow">
+                    <span id="unispan1">
+                        <!-- <img src="pics/mrsptulogo.png" alt="" height="20px" width="20px"> &nbsp;&nbsp; -->
+                        MAHARAJA RANJIT SINGH PUNJAB TECHNICAL UNIVERSITY, BATHINDA <br>
+                    </span>
+                    <span id="unispan">
+                        STUDENT LITERARY CLUB
+                    </span>
+                </div>
+            </a>
+
+            <!-- TOGGLER BUTTON -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- OFFCANVAS CONTENT -->
+            <div class="offcanvas offcanvas-end bg-body-tertiary" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Student Literary Club</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="list-group list-group-flush">
+                        <a href="index.html" class="list-group-item list-group-item-action">Home         </a>
+                <a href="whoWeAre.html" class="list-group-item list-group-item-action">Who we are    </a>
+                <a href="calender.html" class="list-group-item list-group-item-action">Calender     </a>
+                <a href="rules.html" class="list-group-item list-group-item-action">Rule Book    </a>
+                <a href="activities.html" class="list-group-item list-group-item-action">Activities   </a>
+                <a href="gallery.html" class="list-group-item list-group-item-action">Gallery      </a>
+                <a href="news.html" class="list-group-item list-group-item-action">News         </a>
+                <a href="members.html" class="list-group-item list-group-item-action">SLC Members  </a>
+                <a href="posters.html" class="list-group-item list-group-item-action">Posters  </a>
+                <a href="winners.html" class="list-group-item list-group-item-action">Winners      
+                <a href="feed.html" class="list-group-item list-group-item-action bg-body-tertiary">Motivation Feed  </a></a>
+                <a href="recentTopics.html" class="list-group-item list-group-item-action">Recent Topics  </a>
+                <a href="quiz.html" class="list-group-item list-group-item-action">Quiz questions  </a>
+                <a href="contact.html" class="list-group-item list-group-item-action">Contact us   </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <div class="row mainrow container-fluid d-flex justify-content-around">
+
+        <!-- TABLE OF CONTENT SECTION -->
+        <div class="col-md-2 container-fluid bg-body-tertiary"  id="toc" style="height: 100%; padding: 1vw;">
+
+            <div class="list-group list-group-flush">
+                <a href="index.html" class="list-group-item list-group-item-action">Home         </a>
+                <a href="whoWeAre.html" class="list-group-item list-group-item-action">Who we are    </a>
+                <a href="calender.html" class="list-group-item list-group-item-action">Calender     </a>
+                <a href="rules.html" class="list-group-item list-group-item-action">Rule Book    </a>
+                <a href="activities.html" class="list-group-item list-group-item-action">Activities   </a>
+                <a href="gallery.html" class="list-group-item list-group-item-action">Gallery      </a>
+                <a href="news.html" class="list-group-item list-group-item-action">News         </a>
+                <a href="members.html" class="list-group-item list-group-item-action">SLC Members  </a>
+                <a href="posters.html" class="list-group-item list-group-item-action">Posters  </a>
+                <a href="winners.html" class="list-group-item list-group-item-action">Winners      </a>
+                <a href="feed.html" class="list-group-item list-group-item-action bg-body-tertiary">Motivation Feed  </a>
+                <a href="recentTopics.html" class="list-group-item list-group-item-action">Recent Topics  </a>
+                <a href="quiz.html" class="list-group-item list-group-item-action">Quiz questions  </a>
+                <a href="contact.html" class="list-group-item list-group-item-action">Contact us   </a>
+              </div>
+
+        </div>
+
+        <!-- PAGE -->
+        <div class="col-md-10 container-fluid" style="padding-left: 12vw;">
+
+            <div class="gallery">
+            
+                <a href="pics/feed/1.jpg"><img src="pics/feed/1.jpg" class="img-fluid" width="28%" style="margin: 1vw;" alt=""></a>
+                    
+                <a href="pics/feed/2.jpg"><img src="pics/feed/2.jpg" class="img-fluid" width="28%" style="margin: 1vw;" alt=""></a>
+                   
+                <a href="pics/feed/12.jpg"><img src="pics/feed/12.jpg" class="img-fluid" width="28%" style="margin: 1vw;" alt=""></a>
+                    
+                <a href="pics/feed/3.jpg"><img src="pics/feed/3.jpg" class="img-fluid" width="28%" style="margin: 1vw;" alt=""></a>
+                    
+                <a href="pics/feed/4.jpg"><img src="pics/feed/4.jpg" class="img-fluid" width="28%" style="margin: 1vw;" alt=""></a>
+                    
+                <a href="pics/feed/9.jpg"><img src="pics/feed/9.jpg" class="img-fluid" width="28%" style="margin: 1vw;" alt=""></a>
+                    
+                <a href="pics/feed/5.jpg"><img src="pics/feed/5.jpg" class="img-fluid" width="28%" style="margin: 1vw;" alt=""></a>
+                    
+                <a href="pics/feed/7.jpg"><img src="pics/feed/7.jpg" class="img-fluid" width="28%" style="margin: 1vw;" alt=""></a>
+                    
+                <a href="pics/feed/8.jpg"><img src="pics/feed/8.jpg" class="img-fluid" width="28%" style="margin: 1vw;" alt=""></a>
+                    
+                <a href="pics/feed/10.jpg"><img src="pics/feed/10.jpg" class="img-fluid" width="28%" style="margin: 1vw;" alt=""></a>
+                    
+                <a href="pics/feed/11.jpg"><img src="pics/feed/11.jpg" class="img-fluid" width="28%" style="margin: 1vw;" alt=""></a>
+                    
+                <a href="pics/feed/13.jpg"><img src="pics/feed/13.jpg" class="img-fluid" width="28%" style="margin: 1vw;" alt=""></a>
+                    
+                <a href="pics/feed/6.jpg"><img src="pics/feed/6.jpg" class="img-fluid" width="28%" style="margin: 1vw;" alt=""></a>
+                    
+                <a href="pics/feed/14.jpg"><img src="pics/feed/14.jpg" class="img-fluid" width="28%" style="margin: 1vw;" alt=""></a>
+                    
+                <a href="pics/feed/15.jpg"><img src="pics/feed/15.jpg" class="img-fluid" width="28%" style="margin: 1vw;" alt=""></a>
+                    
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="row">
+            <div class="col">
+                <div class="container-fluid">
+                    <a href="index.html" class="list-group-item list-group-item-action">Home         </a><br>
+                    <a href="whoWeAre.html" class="list-group-item list-group-item-action">Who we are    </a><br>
+                    <a href="calender.html" class="list-group-item list-group-item-action">Calender     </a><br>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="container-fluid">
+                    <a href="news.html" class="list-group-item list-group-item-action">News         </a><br>
+                    <a href="members.html" class="list-group-item list-group-item-action">SLC Members  </a><br>
+                    <a href="contact.html" class="list-group-item list-group-item-action">Contact us   </a><br>
+                </div>
+            </div>
+
+            <div class="col-md-7">
+                <div class="container-fluid footer3">
+                    <!-- LOGO IMG -->
+                    <img src="pics/STUDENT LITERARY CLUB.png" alt="Bootstrap" id="footerimg"> &nbsp;
+                    <!-- CLUB NAME -->
+                    <span>STUDENT LITERARY CLUB</span><br><br>
+                    <!-- CLLG NAME -->
+                    <span>MRSPTU-GZSCCET BATHINDA</span><br><br>
+                    <!-- CONTACT -->
+                    <!-- <div class="d-flex justify-content-evenly" style="margin-top: 1vw; padding: 1vw;">
+                        <a href=""><img src="pics/instgram.png" alt="" width="25px"></a>
+                        <a href=""><img src="pics/whatsapp.webp" alt="" width="25px"></a>
+                        <a href=""><img src="pics/gmail.png" alt="" width="25px"></a>
+                    </div><br> -->
+                    <!-- COPYRIGHT LINK -->
+                    <span>Copyrights reserved | Privacy policy</span><br>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+  
+    <!-- SCRIPT FOR LIGHTHOUSE GALLERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script>
+        lightGallery(document.querySelector(".gallery"));
+    </script>
+
+</body>
+</html>
